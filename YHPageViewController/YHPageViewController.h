@@ -7,7 +7,6 @@
 //  如有疑问 联系QQ：617584527
 
 #import <UIKit/UIKit.h>
-#import "JKRootViewController.h"
 
 // 用法
 // 1.继承YHPageViewController
@@ -15,7 +14,7 @@
 
 typedef void(^SelectTagBlock)(NSString *title,NSInteger indx);
 
-@interface YHPageViewController : JKRootViewController
+@interface YHPageViewController : UIViewController
 
 + (instancetype)pageViewController;
 - (instancetype)initPageViewController;
