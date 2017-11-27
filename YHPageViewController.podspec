@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'YHPageViewController'
-s.version = '1.3.0'
+s.version = '1.1.0'
 s.license = 'MIT'
 s.summary = 'An example of a good film performance.'
 s.homepage = 'https://github.com/RabbitHan/YHPageViewController'
