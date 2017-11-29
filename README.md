@@ -10,27 +10,27 @@
   * 添加子控制器
   
 `
-  \- (void)viewDidLoad {
+  - (void)viewDidLoad {
 `
 
 `
-     [super viewDidLoad];
+    [super viewDidLoad];
 `
 
 `
-     UIViewContrller *controller1 = [[UIViewContrller alloc] init];
+    UIViewContrller *controller1 = [[UIViewContrller alloc] init];
 `
 
 `
-     controller1.title = @"控制器1";
+    controller1.title = @"控制器1";
 `
 
 `
-     [self addChildViewController:controller1];
+    [self addChildViewController:controller1];
 `
 
 `
-   }
+  }
 `   
 
   
