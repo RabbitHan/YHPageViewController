@@ -10,13 +10,12 @@
   * 添加子控制器
   
         - (void)viewDidLoad {
+          [super viewDidLoad];
       
-      [super viewDidLoad];
-      
-      UIViewContrller *controller1 = [[UIViewContrller alloc] init];
-      controller1.title = @"控制器1";
-      [self addChildViewController:controller1];
-    } 
+          UIViewContrller *controller1 = [[UIViewContrller alloc] init];
+          controller1.title = @"控制器1";
+          [self addChildViewController:controller1];
+        } 
   
   * 控制器效果
 ## YHPageViewController的进阶使用
