@@ -13,6 +13,12 @@
           UIViewContrller *controller1 = [[UIViewContrller alloc] init];
           controller1.title = @"控制器1";
           [self addChildViewController:controller1];
+          
+          UIViewContrller *controller2 = [[UIViewContrller alloc] init];
+          controller2.title = @"控制器2";
+          [self addChildViewController:controller2];
+          
+          ······
         } 
   
   * 控制器效果
