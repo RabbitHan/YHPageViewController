@@ -10,6 +10,7 @@
   * 添加子控制器
   
     - (void)viewDidLoad {
+      
       [super viewDidLoad];
       
       UIViewContrller *controller1 = [[UIViewContrller alloc] init];
