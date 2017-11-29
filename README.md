@@ -13,11 +13,11 @@
           [super viewDidLoad];
       
           UIViewContrller *controller1 = [[UIViewContrller alloc] init];
-          controller1.title = @"控制器1";  //title为顶部标签页的标题
+          controller1.title = @"控制器1";                            //title为顶部标签页的标题
           [self addChildViewController:controller1];
           
           UIViewContrller *controller2 = [[UIViewContrller alloc] init];
-          controller2.title = @"控制器2";  //title为顶部标签页的标题
+          controller2.title = @"控制器2";                            //title为顶部标签页的标题
           [self addChildViewController:controller2];
           
           ······
@@ -26,9 +26,9 @@
   * 添加效果
   
         CustomPageController *pageController = [CustomPageController pageViewController];
-        pageController.normalColor = [UIColor blackColor];  //标签普通颜色
-        pageController.selectedColor = [UIColor redColor];  //标签选中颜色
-        pageController.titleFont = [UIFont systemOfSize:15.0f];  //标签字体大小
+        pageController.normalColor = [UIColor blackColor];          //标签普通颜色
+        pageController.selectedColor = [UIColor redColor];          //标签选中颜色
+        pageController.titleFont = [UIFont systemOfSize:15.0f];     //标签字体大小
   
 ## YHPageViewController的进阶使用
 ## YHPageViewController的高级使用
