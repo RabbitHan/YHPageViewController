@@ -12,7 +12,7 @@
   `
   - (void)viewDidLoad {
   `
-  `
+     `
      [super viewDidLoad];
      `
      `
@@ -20,7 +20,7 @@
      controller1.title = @"控制器1";
      [self addChildViewController:controller1];
      `
-     `
+   `
    }
    `
   
