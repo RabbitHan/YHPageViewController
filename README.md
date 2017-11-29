@@ -10,7 +10,7 @@
   * 添加子控制器
   
   `
-  - (void)viewDidLoad {
+  \- (void)viewDidLoad {
 
      [super viewDidLoad];
 
